@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playpen Sans', cursive;
+}
+
+form {
+    margin-top: 50px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-top: 30px;
+    margin-left: 49vw;
+}
+
+.focus {
+    background: #fff;
+}
+
+.redborder {
+    border: 1px solid red;
+}
+
+.blackborder {
+    border: 1px solid green;
+}
+
+#nameTxt,
+#emailTxt,
+#passwordTxt {
+    color: red;
+}
+
+button {
+    width: 100px;
+    position: relative;
+    left: -20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+img {
+    position: relative;
+    left: 50%;
+}
+
+.formHeading {
+    text-align: center;
+    margin: 40px 0px 80px 0px;
+}
+
+.darkSwitch,
+.lightSwitch {
+    width: 10vw;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: transparent;
+}
+
+.darkSwitch {
+    background-color: #00000095;
+    color: white;
+}
+
+.lightSwitch {
+    color: #000;
+    background: #ffffffcc;
+}
+
+.darkSwitch:hover {
+    color: white;
+    background: #000;
+}
+
+.lightSwitch:hover {
+    color: #000;
+    background: #fff;
+}
+
+.darkBody {
+    background: #000;
+    color: white;
+}
+
+.lightBody {
+    background: #fff;
+    color: black;
+}
+
+#nameTxtLetter,
+#passwordTxtLetter {
+    color: red;
+}
+
+#nameTxtSpace,
+#passwordTxtSpace,
+#emailTxtSpace {
+    color: red;
+}
+
+#loadingGif {
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+#submitBtn {
+    border: transparent;
+    cursor: pointer;
+    background-color: #837e7e;
+    color: #fff;
+}
+
+#submitBtn:hover {
+    background-color: #5f5f5f;
+}

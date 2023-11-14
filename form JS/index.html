@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body" class="lightBody">
+    <nav>
+        <button id="darkSwitch" class="darkSwitch" style="display: inline-block;" onclick="DarkMode()">Dark
+            Mode</button>
+        <button id="lightSwitch" class="lightSwitch" style="display: none;" onclick="LightMode()">Light Mode</button>
+    </nav>
+    <form action="#" name="Basic" id="form" class="form">
+        <h1 class="formHeading">Working Form Using JS</h1>
+        <table>
+            <tr>
+                <td class="name" id="name">Name : </td>
+                <td><input type="text" class="nameInp" id="nameInp" placeholder="enter your name"></td>
+                <td>
+                    <h5 style="display: none;" id="nameTxt">Plz Enter Name</h5>
+                    <h5 style="display: none;" id="nameTxtLetter">Name must be contain atleast 4 letters</h5>
+                    <h5 style="display: none;" id="nameTxtSpace">space is not allow in first letter</h5>
+                </td>
+                <!-- <h5 style="display: none;">Plz Enter Name</h5> -->
+            </tr>
+            <tr>
+                <td class="email" id="email">Email : </td>
+                <td><input type="email" class="emailInp" placeholder="enter your email" id="emailInp"></td>
+                <td>
+                    <h5 style="display: none;" id="emailTxt">Plz Enter Email</h5>
+                    <h5 style="display: none;" id="emailTxtSpace">space is not allow in email</h5>
+                </td>
+                <!-- <h5 style="display: none;">Plz Enter Email</h5> -->
+            </tr>
+            <tr>
+                <td class="password" id="password">Password : </td>
+                <td><input type="password" class="passwordInp" placeholder="enter password" id="passwordInp"></td>
+                <td>
+                    <h5 style="display: none;" id="passwordTxt">Plz Enter Password</h5>
+                    <h5 style="display: none;" id="passwordTxtSpace">Space is not allow in first letter</h5>
+                    <h5 style="display: none;" id="passwordTxtLetter">passwors must be contain at least 8 letters</h5>
+                </td>
+                <!-- <h5 style="display: none;">Plz Enter Password</h5> -->
+            </tr>
+        </table>
+        <img src="./VAyR.gif" alt="" width="80px" style="display: none;" id="loadingGif">
+        <button style="display: inline-block;" id="submitBtn" onclick="FormButton()">Submit</button>
+    </form>
+    <script src="./main.js"></script>
+</body>
+
+</html>
